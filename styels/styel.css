@@ -1,0 +1,159 @@
+* {
+    font-family: Mulish;
+}
+
+header {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Menu Bar */
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.web-name {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.web-name span {
+    color: #FF5400;
+}
+
+.web-name img {
+    width: 25%;
+    height: 50%;
+}
+
+.web-name h2 {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+.nav-bar ul li a {
+    color: #424247;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.nav-bar ul li .home {
+    color: #FF5400;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+}
+
+/* Menu Bar Compelete */
+
+/* Banner-Section */
+.banner-container {
+    margin: 0 auto;
+}
+
+.banner-img {
+    background: url(../B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 1140px;
+    height: 500px;
+    /* padding-top: 50px; */
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.banner-container {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    padding-top: 80px;
+}
+
+.banner-img h2 {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.banner-img p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 20px 0;
+}
+
+.banner-input input {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+
+.banner-input .select1 {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.banner-input .select2 {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.banner-input {
+    display: inline-flex;
+    padding: 1rem;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.banner-input button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+}
+
+.input-section-bnner {
+    margin-left: 150px;
+}
+.banner-input button:hover{
+    cursor: pointer;
+    font-size: 1.25rem;
+    transition: all 1s;
+    background-color: rgb(255, 106, 0);
+}
