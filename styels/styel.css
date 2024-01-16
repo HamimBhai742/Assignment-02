@@ -210,9 +210,11 @@ li {
     width: 1140px;
     margin: 0 auto;
 }
-.sec2-img{
+
+.sec2-img {
     margin-top: 40px;
 }
+
 .sec2-img .img {
     width: 50%;
     border-radius: 16px;
@@ -262,14 +264,14 @@ li {
         flex-direction: column;
         justify-content: center;
         gap: 10px;
-        margin-left: 300px;
+        /* margin-left: 300px; */
 
     }
 
     .banner-img {
-        width: 1140px;
-        height: 580px;
-        margin-left: 100px;
+        width: 50%;
+        height: 500%;
+        /* margin-left: 100px; */
 
     }
 
@@ -278,12 +280,22 @@ li {
         border-radius: 16px;
     }
 
+    .banner-container p {
+        font-size: 1.25rem;
+    }
+    .banner-img{
+        margin: 0 auto;
+    }
     .banner-img h2 {
         font-size: 2rem;
     }
 
     .banner-img p {
         max-width: 404px;
+    }
+
+    .nav-bar li a {
+        font-size: 2rem;
     }
 
     .input-section-bnner {
@@ -300,26 +312,35 @@ li {
 
     .sec1-container {
         width: 500px;
-        margin-left: 120px;
-        margin-top: -90px;
+        margin-left: 280px;
+        margin-top: 90px;
     }
-    .sec2-img{
+    .sec1-content p,li{
+     font-size: 1.5rem;
+}
+    .sec2-img {
         max-width: 700px;
         margin-top: 0;
         margin: 0 auto;
     }
-    .img-1{
+
+    .img-1 {
         flex-direction: column;
         width: 160%;
         border-radius: 48px;
     }
-    .img-2{
+
+    .img-2 {
         flex-direction: column;
         width: 80%;
     }
-    .img-3{
+
+    .img-3 {
         flex-direction: column;
         width: 160%;
         border-radius: 48px;
+    }
+    .sec-2content p {
+        font-size: 1.5rem;
     }
 }
