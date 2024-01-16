@@ -223,6 +223,12 @@ li {
     width: 50%;
     border-radius: 16px;
 }
+.sec2-img img:hover{
+    cursor: pointer;
+    position: relative;
+    left: .25%;
+    transition: all 1s;
+}
 
 .img-1 {
     display: flex;
@@ -366,7 +372,11 @@ li {
     flex-shrink: 0;
     padding-left: 50px;
 }
-
+.sec-4-content button:hover{
+    background-color: crimson;
+    transition: all 1s;
+    font-size: 1.5rem;
+}
 /* section{
     border: 2px solid gray;
 } */
@@ -533,6 +543,11 @@ li {
     text-align: center;
     font-size: 1.25rem;
     font-weight: 800;
+}
+#Subscribe-btn:hover{
+    background-color: grey;
+    font-size: 1.5rem;
+    transition: all 2s;
 }
 
 .sec6-ls {
@@ -708,6 +723,9 @@ li {
 
     .sec-2content p {
         font-size: 1.5rem;
+        max-width: 400px;
+        text-align: center;
+        margin-left: 350px;
     }
 
     .sec3-titel {
@@ -786,7 +804,7 @@ li {
     }
 
     .sec5-video {
-        width: 50%;
+        width: 60%;
     }
 
     .sec6-container {
