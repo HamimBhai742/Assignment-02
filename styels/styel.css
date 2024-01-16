@@ -20,7 +20,8 @@ header {
     align-items: center;
 }
 
-.web-name span {
+.web-name span,
+.ft-fst-sec span {
     color: #FF5400;
 }
 
@@ -29,10 +30,12 @@ header {
     height: 50%;
 }
 
-.web-name h2 {
+.web-name h2,
+.ft-fst-sec h3 {
     color: #131318;
     font-size: 2.25rem;
     font-weight: 800;
+
 }
 
 .nav-bar ul li a {
@@ -57,6 +60,7 @@ header {
 .nav-bar ul li a {
     text-decoration: none;
 }
+
 
 /* Menu Bar Compelete */
 
@@ -253,6 +257,366 @@ li {
     line-height: 26px;
 }
 
+.box-sec3 img {
+    width: 5%;
+}
+
+.box-sec3 {
+    padding: 30px;
+    width: 500px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.box-sec3 h4 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.box-sec3 p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.box-ti {
+    display: flex;
+    gap: 20px;
+}
+
+.sec3-titel {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.sec3-titel h3 {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.sec3-titel p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.sec3-box-container {
+    margin: 50px auto;
+    max-width: 1140px;
+}
+
+.box-ti-2 {
+    margin: 20px auto;
+    position: relative;
+    left: 25%;
+}
+
+#box-2-sec3 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.sec-4-img1 {
+    background: url('../B9A2-Hero-Travel/5days-zhangjiajie-ultimate-tour-1140-3.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    padding: 60px 0 0 400px;
+}
+
+.sec-4-img2 {
+    background: url('../B9A2-Hero-Travel/qingchengshan-lake-boat-1140.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    padding: 70px 0 0 100px;
+}
+
+.sec-4-img3 {
+    background: url('../B9A2-Hero-Travel/detian-1140-3.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    padding: 80px 0 0 250px;
+    margin-bottom: 0;
+}
+
+.sec-4-container {
+    width: 1140px;
+    margin: 10px auto;
+}
+
+.sec-4-content {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 550px;
+    height: 350px;
+    flex-shrink: 0;
+    padding-left: 50px;
+}
+
+/* section{
+    border: 2px solid gray;
+} */
+.sec-4-content h4 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.sec-4-content h5 {
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.sec-4-content p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 450px;
+}
+
+.sec-4-content button {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 150px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: none;
+}
+
+.sec-4-container h2 {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.sec-4-container .sc4-p1 {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+
+.sec-4-container .btn-sec4 {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 210px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: none;
+    position: relative;
+    left: 40%;
+}
+
+.sec5-content h2 {
+    color: #131318;
+    font: size 2.5rem;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.sec5-content p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.sec5-content li {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.sec5-content button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: none;
+}
+
+.sec5-video video {
+    width: 80%;
+    height: 60%;
+    border-radius: 16px;
+}
+
+.sec5-container {
+    display: flex;
+    gap: 140px;
+    margin: 80px auto;
+    width: 1140px;
+    align-items: center;
+}
+
+.section6l {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.sec6-container {
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.sec6-content {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    width: 474px;
+    height: 422px;
+    padding: 20px 10px 0 10px;
+}
+
+.sec6-content h3 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.sec6-content p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.sec6-content input {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+    margin-top: 20px;
+}
+
+#Subscribe-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.sec6-ls {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    position: relative;
+    left: 71%;
+    margin-top: -220px;
+    transform: rotate(-19.628deg);
+}
+
+.sec6-ls p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+
+.sec6-ls h2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+.footer-sec {
+    width: 1440px;
+    height: 502px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 100px auto;
+}
+
+.ft-fst-sec {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ft-mid p {
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.ft-icon {
+    position: relative;
+    left: 40%;
+    margin: 20px 0;
+}
+
+.ft-icon button {
+    font-size: 2.5rem;
+    border: none;
+    margin-left: 15px;
+}
+
+.ft-icon button a {
+    color: #000000;
+}
+
+.ft-ls p {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.ft-fst-sec img {
+    height: 50%;
+}
+
+.footer-containert {
+    padding: 100px 50px 0 50px;
+}
+
 /* Responsive Section */
 
 @media screen and (max-width:576px) {
@@ -264,15 +628,11 @@ li {
         flex-direction: column;
         justify-content: center;
         gap: 10px;
-        /* margin-left: 300px; */
-
     }
 
     .banner-img {
         width: 50%;
-        height: 500%;
-        /* margin-left: 100px; */
-
+        height: 100%;
     }
 
     .banner-container {
@@ -283,9 +643,11 @@ li {
     .banner-container p {
         font-size: 1.25rem;
     }
-    .banner-img{
+
+    .banner-img {
         margin: 0 auto;
     }
+
     .banner-img h2 {
         font-size: 2rem;
     }
@@ -315,32 +677,150 @@ li {
         margin-left: 280px;
         margin-top: 90px;
     }
-    .sec1-content p,li{
-     font-size: 1.5rem;
-}
+
+    .sec1-content p,
+    li {
+        font-size: 1.5rem;
+    }
+
     .sec2-img {
-        max-width: 700px;
+        /* max-width: 700px; */
         margin-top: 0;
-        margin: 0 auto;
+        margin-left: 250px;
     }
 
     .img-1 {
         flex-direction: column;
-        width: 160%;
+        width: 140%;
         border-radius: 48px;
     }
 
     .img-2 {
         flex-direction: column;
-        width: 80%;
+        width: 70%;
     }
 
     .img-3 {
         flex-direction: column;
-        width: 160%;
+        width: 140%;
         border-radius: 48px;
     }
+
     .sec-2content p {
         font-size: 1.5rem;
+    }
+
+    .sec3-titel {
+        /* border: 1px solid hotpink; */
+        margin-left: 220px;
+        width: 570px;
+    }
+
+    .box-ti {
+        flex-direction: column;
+    }
+
+    .box-ti-2 {
+        position: static;
+    }
+
+    .box-sec3 {
+        width: 350px;
+        height: 250px;
+    }
+
+    .sec3-box-container {
+        margin-left: 250px;
+    }
+
+    .sec-4-img1 {
+        width: 400px;
+        padding: 30px 10px 0 10px;
+        margin-left: 220px;
+    }
+
+    .sec-4-img2 {
+        width: 400px;
+        padding: 30px 10px 0 10px;
+        margin-left: 220px;
+    }
+
+    .sec-4-img3 {
+        width: 400px;
+        padding: 30px 10px 0 10px;
+        margin-left: 220px;
+
+    }
+
+    .sec-4-content {
+        border-radius: 16px;
+        width: 350px;
+        height: 400px;
+    }
+
+    .sec-4-container h2 {
+        text-align: start;
+        margin-left: 220px;
+    }
+
+    .sec-4-container .sc4-p1 {
+        max-width: 300px;
+        margin-left: 250px;
+    }
+
+    .sec-4-container .btn-sec4 {
+        position: static;
+        margin-left: 250px;
+    }
+
+    .sec5-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .sec5-content {
+        margin-top: -70px;
+        max-width: 500px;
+        text-align: center;
+        margin-right: 260px;
+    }
+
+    .sec5-video {
+        width: 50%;
+    }
+
+    .sec6-container {
+        flex-direction: column;
+        margin-left: 220px;
+    }
+
+    .sec6-content {
+        width: 474px;
+        height: 422px;
+    }
+
+    .sec6-img img {
+        width: 40%;
+        height: 450px;
+    }
+
+    .sec6-ls {
+        position: relative;
+        left: 30%;
+    }
+
+    .footer-containert {
+        padding: 10px;
+    }
+
+    .footer-sec {
+        width: 450px;
+        height: 400px;
+        flex-shrink: 0;
+        margin-left: 220px;
+    }
+    .ft-icon{
+        position: relative;
+        left: 20%;
     }
 }
