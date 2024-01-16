@@ -170,6 +170,7 @@ header {
     .banner-input {
         flex-direction: column;
         justify-content: center;
+        gap: 10px;
         margin: 0 auto;
        
     }
@@ -177,14 +178,12 @@ header {
     .banner-img {
         width: 500px;
         height: 580px;
-        flex-shrink: 0;
         margin: 0 auto;
-        border-radius:16px;
+        border-radius:16px 16px 16px 16px;
     }
 
     .banner-container {
         padding-top: 10px;
-        border-radius:16px;
     }
 
     .banner-img h2 {
