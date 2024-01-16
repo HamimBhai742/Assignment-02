@@ -160,6 +160,49 @@ header {
     background-color: rgb(255, 106, 0);
 }
 
+
+
+/* Banner section compelete */
+
+/* Section1 */
+.sec1-container{
+    max-width: 1140px;
+    margin: 100px auto; 
+} 
+.section1 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sec1-content h3 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.sec1-content p,
+li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 550px;
+}
+
+.sec1-content button {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+}
+.sec1-img img{
+ width: 100%;
+}
 /* Responsive Section */
 
 @media screen and (max-width:576px) {
@@ -172,18 +215,19 @@ header {
         justify-content: center;
         gap: 10px;
         margin: 0 auto;
-       
+
     }
 
     .banner-img {
-        width: 500px;
+        width: 50%;
         height: 580px;
         margin: 0 auto;
-        border-radius:16px 16px 16px 16px;
+      
     }
 
     .banner-container {
         padding-top: 10px;
+        border-radius: 16px;
     }
 
     .banner-img h2 {
