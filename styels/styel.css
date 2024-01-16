@@ -262,14 +262,14 @@ li {
         flex-direction: column;
         justify-content: center;
         gap: 10px;
-        margin: 0 auto;
+        margin-left: 300px;
 
     }
 
     .banner-img {
-        width: 500px;
+        width: 1140px;
         height: 580px;
-        margin: 0 auto;
+        margin-left: 100px;
 
     }
 
@@ -300,7 +300,7 @@ li {
 
     .sec1-container {
         width: 500px;
-        margin-left: 310px;
+        margin-left: 120px;
         margin-top: -90px;
     }
     .sec2-img{
